@@ -43,7 +43,7 @@ func RequestData(c *gin.Context) {
 
 	// Channel to receive requests
 	requests := make(chan Requeststruct)
-
+// lets code as for testitng
 	// Start the worker
 	go worker(requests)
 
